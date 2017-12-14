@@ -13,6 +13,7 @@ def windows_open_appium(*args):
         test=[]
         print 'hi'
         if platform.system()=='Windows':
+            from subprocess import CREATE_NEW_CONSOLE
             for item in args:
                 for port in item:
                     terminal='cmd'
