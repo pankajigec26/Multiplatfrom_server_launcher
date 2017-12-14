@@ -1,5 +1,5 @@
 from subprocess import Popen 
-from subprocess import Popen, CREATE_NEW_CONSOLE,PIPE,STDOUT
+from subprocess import Popen,PIPE,STDOUT
 import time
 import subprocess
 import platform
